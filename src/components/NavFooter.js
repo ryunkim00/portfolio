@@ -28,7 +28,7 @@ const NavFooter = ({ previous, next, previousName, nextName }) => {
             style={{ textAlign: "center" }}
             whileHover={{ y: "-1rem" }}
           >
-            <h4>Previous Project</h4>
+            <h4>{previousName}</h4>
             <FiArrowLeftCircle size="1.5rem" />
           </motion.div>
         </Link>

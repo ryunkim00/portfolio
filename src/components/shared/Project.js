@@ -29,7 +29,9 @@ const Project = ({
 }) => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);
   const theme = isLightTheme ? light : dark;
-  const { width } = useWindowDimensions();
+  const { windowDimensions, breakpoint } = useWindowDimensions();
+  const { width } = windowDimensions;
+
   const styles = {
     container: {
       display: "flex",
@@ -38,14 +40,15 @@ const Project = ({
       width: "100%",
     },
     text: {
-      paddingRight: width > 992 ? textFirst && "8rem" : 0,
-      paddingLeft: width > 992 ? !textFirst && "8rem" : 0,
-      textAlign: width > 992 ? (textFirst ? "left" : "right") : "center",
-      lineHeight: width > 992 && "3rem",
+      paddingRight: width > breakpoint.lg ? textFirst && "8rem" : 0,
+      paddingLeft: width > breakpoint.lg ? !textFirst && "8rem" : 0,
+      textAlign:
+        width > breakpoint.lg ? (textFirst ? "left" : "right") : "center",
+      lineHeight: width > breakpoint.lg && "3rem",
     },
     image: {
-      width: width > 992 ? "25rem" : "15rem",
-      height: width > 992 ? "25rem" : "15rem",
+      width: width > breakpoint.lg ? "25rem" : "15rem",
+      height: width > breakpoint.lg ? "25rem" : "15rem",
       maxWidth: "25rem",
       maxHeight: "25rem",
       borderRadius: 10,
@@ -60,7 +63,7 @@ const Project = ({
         <div
           style={{
             ...styles.container,
-            flexDirection: width > 992 ? "row" : "column-reverse",
+            flexDirection: width > breakpoint.lg ? "row" : "column-reverse",
           }}
         >
           <div style={styles.text}>
@@ -80,30 +83,34 @@ const Project = ({
               </motion.button>
             </Link>
           </div>
-          <motion.img
-            src={imgSrc}
-            alt="Project thumbnail"
-            className="shadow"
-            style={styles.image}
-            variants={imageVariants}
-            whileHover="hover"
-          />
+          <Link to={destination ? destination : "/"}>
+            <motion.img
+              src={imgSrc}
+              alt="Project thumbnail"
+              className="shadow"
+              style={styles.image}
+              variants={imageVariants}
+              whileHover="hover"
+            />
+          </Link>
         </div>
       ) : (
         <div
           style={{
             ...styles.container,
-            flexDirection: width > 992 ? "row" : "column",
+            flexDirection: width > breakpoint.lg ? "row" : "column",
           }}
         >
-          <motion.img
-            src={imgSrc}
-            alt="Project thumbnail"
-            className="shadow"
-            style={styles.image}
-            variants={imageVariants}
-            whileHover="hover"
-          />
+          <Link to={destination ? destination : "/"}>
+            <motion.img
+              src={imgSrc}
+              alt="Project thumbnail"
+              className="shadow"
+              style={styles.image}
+              variants={imageVariants}
+              whileHover="hover"
+            />
+          </Link>
           <div style={styles.text}>
             <h3>
               <span style={{ borderBottom: "0.5rem #fcbc66 solid" }}>

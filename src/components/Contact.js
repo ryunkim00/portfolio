@@ -12,6 +12,7 @@ import useWindowDimensions from "../hooks/useWindowDimensions";
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
 import { motion } from "framer-motion";
+import Resume from "../assets/Ryun_Kim_Resume.pdf";
 
 const buttonVariants = {
   hover: {
@@ -22,7 +23,9 @@ const buttonVariants = {
 const Contact = () => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);
   const theme = isLightTheme ? light : dark;
-  const { width } = useWindowDimensions();
+  const { windowDimensions, breakpoint } = useWindowDimensions();
+  const { width } = windowDimensions;
+
   const styles = {
     contactLink: {
       display: "flex",
@@ -48,7 +51,7 @@ const Contact = () => {
         id="Contact"
         style={{
           display: "flex",
-          flexDirection: width > 992 ? "row" : "column",
+          flexDirection: width > breakpoint.lg ? "row" : "column",
           backgroundColor: theme.bg,
           color: theme.syntax,
         }}
@@ -56,7 +59,7 @@ const Contact = () => {
         <div
           style={{
             display: "flex",
-            flexDirection: width > 992 ? "row" : "column",
+            flexDirection: width > breakpoint.lg ? "row" : "column",
             backgroundColor: theme.secondary,
           }}
         >
@@ -65,12 +68,16 @@ const Contact = () => {
             alt="Profile"
             title="Nice to meet you!"
             style={{
-              width: width > 992 ? "50%" : "100%",
-              height: width > 992 ? "auto" : "50vh",
+              width: width > breakpoint.lg ? "50%" : "100%",
+              height: width > breakpoint.lg ? "auto" : "50vh",
               objectFit: "cover",
             }}
           />
-          <div style={{ padding: `4rem ${width > 992 ? "3rem" : "10vmax"}` }}>
+          <div
+            style={{
+              padding: `4rem ${width > breakpoint.lg ? "3rem" : "10vmax"}`,
+            }}
+          >
             <h2>About</h2>
             <p>
               Hello, I'm Ryun! Thanks for visiting my portfolio website. A
@@ -79,35 +86,37 @@ const Contact = () => {
               mobile development.
             </p>
             <p>I am currently seeking co-op opportunities for Summer 2021.</p>
-            <motion.button
-              style={{
-                border: "0.1rem #fcbc66 solid",
-                color: theme.syntax,
-                marginTop: "1rem",
-              }}
-              variants={buttonVariants}
-              whileHover="hover"
-            >
-              View Resume
-            </motion.button>
+            <a href={Resume} target="_blank">
+              <motion.button
+                style={{
+                  border: "0.1rem #fcbc66 solid",
+                  color: theme.syntax,
+                  marginTop: "1rem",
+                }}
+                variants={buttonVariants}
+                whileHover="hover"
+              >
+                View Resume
+              </motion.button>
+            </a>
           </div>
         </div>
         <div
           style={{
-            padding: `4rem ${width > 992 ? "3rem" : "10vmax"}`,
+            padding: `4rem ${width > breakpoint.lg ? "3rem" : "10vmax"}`,
             backgroundColor: theme.primary,
           }}
         >
           <h2>Contact</h2>
           <p style={{ marginBottom: "2rem" }}>
-            There's nothing like an in-person chat to get to know someone.
-            Please do not hesitate to get in touch with me through any of the
-            methods below:
+            A website can't tell the whole story. If you'd like to chat with me,
+            please don't hesitate to reach out to me through any of the methods
+            below:
           </p>
           <a
             href="mailto:ryun.kim@uwaterloo.ca"
             className="contact-link"
-            style={{ ...styles.contactLink, marginBottom: "0.5rem" }}
+            style={{ ...styles.contactLink, marginBottom: "0.8rem" }}
           >
             <GrMail style={styles.contactIcon} /> ryun.kim@uwaterloo.ca
           </a>

@@ -1,13 +1,17 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Background from "../assets/Background.mp4";
 import { ThemeContext } from "../contexts/ThemeContext";
 import { FiMenu, FiX } from "react-icons/fi";
 import { NavContext } from "../contexts/NavContext";
 
 const Home = () => {
-  const { isLightTheme, light, dark, setTheme } = useContext(ThemeContext);
+  const { isLightTheme, light, dark } = useContext(ThemeContext);
   const { navVisible, setNavVisible } = useContext(NavContext);
   const theme = isLightTheme ? light : dark;
+
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
 
   return (
     <div style={{ height: "100vh", color: theme.syntax }}>

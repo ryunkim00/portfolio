@@ -7,23 +7,27 @@ import HTN from "../assets/HTN.jpg";
 import Scooter from "../assets/Scooter.jpg";
 import Painting from "../assets/Painting.jpeg";
 import TreeFarm from "../assets/Tree-Farm.jpeg";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const Interests = () => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);
   const theme = isLightTheme ? light : dark;
+  const { windowDimensions, breakpoint } = useWindowDimensions();
+  const { width } = windowDimensions;
+
   const interests = [
     {
       id: "1",
       imgSrc: UM,
       title:
         "Competing in an international collegiate a cappella competition in 2020 and placing second, qualifying for semifinals that year in Buffalo!",
-      size: "24rem",
+      size: width > breakpoint.lg ? "24rem" : "22rem",
     },
     {
       id: "2",
       imgSrc: YTCover,
       title: "Making a YouTube cover with a friend",
-      size: "18rem",
+      size: width > breakpoint.lg ? "18rem" : "16rem",
       delay: 1,
     },
     {
@@ -31,21 +35,21 @@ const Interests = () => {
       imgSrc: HTN,
       title:
         "Competing in Hack the North, North America's biggest hackathon, in 2019 with newly made friends",
-      size: "20rem",
+      size: width > breakpoint.lg ? "20rem" : "18rem",
       delay: 1.5,
     },
     {
       id: "4",
       imgSrc: Scooter,
       title: "Scootering/biking around",
-      size: "20rem",
+      size: width > breakpoint.lg ? "20rem" : "18rem",
       delay: 2,
     },
     {
       id: "5",
       imgSrc: Painting,
       title: "Bob Ross night!",
-      size: "24rem",
+      size: width > breakpoint.lg ? "24rem" : "22rem",
       delay: 2.5,
     },
     {
@@ -53,7 +57,7 @@ const Interests = () => {
       imgSrc: TreeFarm,
       title:
         "Visiting a tree farm with my rommates to pick out a Christmas tree",
-      size: "22rem",
+      size: width > breakpoint.lg ? "22rem" : "20rem",
       delay: 2.5,
     },
   ];

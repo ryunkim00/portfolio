@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavContext } from "../contexts/NavContext";
 import { AnimatePresence, motion } from "framer-motion";
+import Resume from "../assets/Ryun_Kim_Resume.pdf";
 
 const containerVariants = {
   hidden: {
@@ -94,7 +95,8 @@ const NavModal = () => {
             About / Contact
           </motion.a>
           <motion.a
-            href="#"
+            href={Resume}
+            target="_blank"
             style={styles.navLink}
             variants={navLinkVariants}
             whileHover="hover"
