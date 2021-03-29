@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.296c5c51.chunk.css",
-    "main.js": "/portfolio/static/js/main.4c4e3608.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4c4e3608.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bc20a1c8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bc20a1c8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c172afdf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c172afdf.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/portfolio/static/css/2.ea11fe1c.chunk.css",
-    "static/js/2.631588ab.chunk.js": "/portfolio/static/js/2.631588ab.chunk.js",
-    "static/js/2.631588ab.chunk.js.map": "/portfolio/static/js/2.631588ab.chunk.js.map",
+    "static/js/2.2cc9494f.chunk.js": "/portfolio/static/js/2.2cc9494f.chunk.js",
+    "static/js/2.2cc9494f.chunk.js.map": "/portfolio/static/js/2.2cc9494f.chunk.js.map",
     "static/js/3.54921b5c.chunk.js": "/portfolio/static/js/3.54921b5c.chunk.js",
     "static/js/3.54921b5c.chunk.js.map": "/portfolio/static/js/3.54921b5c.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/portfolio/static/css/2.ea11fe1c.chunk.css.map",
     "static/css/main.296c5c51.chunk.css.map": "/portfolio/static/css/main.296c5c51.chunk.css.map",
-    "static/js/2.631588ab.chunk.js.LICENSE.txt": "/portfolio/static/js/2.631588ab.chunk.js.LICENSE.txt",
+    "static/js/2.2cc9494f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2cc9494f.chunk.js.LICENSE.txt",
     "static/media/Anti-Bumper-Car.3d0eec3d.jpg": "/portfolio/static/media/Anti-Bumper-Car.3d0eec3d.jpg",
     "static/media/Anti-Bumper-Car1.10eed400.png": "/portfolio/static/media/Anti-Bumper-Car1.10eed400.png",
     "static/media/Anti-Bumper-Car2.12baec3a.jpg": "/portfolio/static/media/Anti-Bumper-Car2.12baec3a.jpg",
@@ -39,7 +39,7 @@
     "static/media/Profile-Dark.27354a70.jpg": "/portfolio/static/media/Profile-Dark.27354a70.jpg",
     "static/media/Profile.c5d1de3a.jpeg": "/portfolio/static/media/Profile.c5d1de3a.jpeg",
     "static/media/Projects-Illustration.9176a775.svg": "/portfolio/static/media/Projects-Illustration.9176a775.svg",
-    "static/media/Ryun_Kim_Resume.9cf96311.pdf": "/portfolio/static/media/Ryun_Kim_Resume.9cf96311.pdf",
+    "static/media/Ryun_Kim_Resume.4a47e0e2.pdf": "/portfolio/static/media/Ryun_Kim_Resume.4a47e0e2.pdf",
     "static/media/SS&C-Logo.ac30f710.png": "/portfolio/static/media/SS&C-Logo.ac30f710.png",
     "static/media/SU-Desktop.791616ab.png": "/portfolio/static/media/SU-Desktop.791616ab.png",
     "static/media/SU-Mobile.10dd9d04.png": "/portfolio/static/media/SU-Mobile.10dd9d04.png",
@@ -57,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.c172afdf.js",
     "static/css/2.ea11fe1c.chunk.css",
-    "static/js/2.631588ab.chunk.js",
+    "static/js/2.2cc9494f.chunk.js",
     "static/css/main.296c5c51.chunk.css",
-    "static/js/main.4c4e3608.chunk.js"
+    "static/js/main.bc20a1c8.chunk.js"
   ]
 }
