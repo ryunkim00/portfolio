@@ -17,7 +17,7 @@ function App() {
       <NavContextProvider>
         <AnimatePresence>
           <Switch location={location} key={location.key}>
-            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/portfolio-project" component={Portfolio} />
             <Route path="/masked-captions" component={MaskedCaptions} />
             <Route path="/anti-bumper-car" component={AntiBumperCar} />
             <Route path="/yelpcamp" component={YelpCamp} />

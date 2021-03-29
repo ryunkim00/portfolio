@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "A showcase of my past work, built on modern frontend technologies",
       imgSrc: PortfolioThumbnail,
-      destination: "/portfolio",
+      destination: "/portfolio-project",
     },
     {
       id: "2",

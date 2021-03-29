@@ -99,7 +99,7 @@ const MaskedCaptions = () => {
       <NavFooter
         next="/anti-bumper-car"
         nextName="Anti-Bumper Car"
-        previous="/portfolio"
+        previous="/portfolio-project"
         previousName="Portfolio"
       />
       <LogoAndThemeToggle />
