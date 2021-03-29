@@ -84,7 +84,7 @@ const YelpCamp = () => {
         <ImageGallery items={images} />
       </div>
       <NavFooter
-        next="/"
+        next="/portfolio"
         nextName="Back to Landing Page"
         previous="/anti-bumper-car"
         previousName="Anti-Bumper Car"

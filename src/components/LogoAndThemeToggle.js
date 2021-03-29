@@ -22,7 +22,7 @@ const LogoAndThemeToggle = () => {
         {isLightTheme ? <FiMoon size="1.5rem" /> : <FiSun size="1.5rem" />}
       </div>
       <a
-        href="/"
+        href="/portfolio"
         style={{
           position: "fixed",
           left: "1rem",

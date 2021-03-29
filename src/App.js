@@ -7,6 +7,7 @@ import NavContextProvider from "./contexts/NavContext";
 import ThemeContextProvider from "./contexts/ThemeContext";
 import AntiBumperCar from "./components/AntiBumperCar";
 import YelpCamp from "./components/YelpCamp";
+import NotFound from "./components/NotFound";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
       <NavContextProvider>
         <AnimatePresence>
           <Switch location={location} key={location.key}>
-            <Route path="/portfolio-project" component={Portfolio} />
-            <Route path="/masked-captions" component={MaskedCaptions} />
-            <Route path="/anti-bumper-car" component={AntiBumperCar} />
-            <Route path="/yelpcamp" component={YelpCamp} />
-            <Route path="/" component={Main} />
+            <Route exact path="/portfolio-project" component={Portfolio} />
+            <Route exact path="/masked-captions" component={MaskedCaptions} />
+            <Route exact path="/anti-bumper-car" component={AntiBumperCar} />
+            <Route exact path="/yelpcamp" component={YelpCamp} />
+            <Route exact path="/portfolio" component={Main} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </AnimatePresence>
       </NavContextProvider>
