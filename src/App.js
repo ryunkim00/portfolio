@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation, Redirect } from "react-router-dom";
 import Main from "./components/Main";
 import Portfolio from "./components/Portfolio";
 import MaskedCaptions from "./components/MaskedCaptions";
@@ -23,6 +23,9 @@ function App() {
             <Route exact path="/anti-bumper-car" component={AntiBumperCar} />
             <Route exact path="/yelpcamp" component={YelpCamp} />
             <Route exact path="/portfolio" component={Main} />
+            <Route exact path="/">
+              <Redirect to="/portfolio" />
+            </Route>
             <Route path="*" component={NotFound} />
           </Switch>
         </AnimatePresence>
