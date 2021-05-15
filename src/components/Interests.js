@@ -56,7 +56,7 @@ const Interests = () => {
       id: "6",
       imgSrc: TreeFarm,
       title:
-        "Visiting a tree farm with my rommates to pick out a Christmas tree",
+        "Visiting a tree farm with my roommates to pick out a Christmas tree",
       size: width > breakpoint.lg ? "22rem" : "20rem",
       delay: 2.5,
     },
