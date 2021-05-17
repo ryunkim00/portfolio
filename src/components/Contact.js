@@ -82,10 +82,13 @@ const Contact = () => {
             <p>
               Hello, I'm Ryun! Thanks for visiting my portfolio website. A
               little bit about me: I'm a third-year mechatronics engineering
-              student at the University of Waterloo with a passion for web and
-              mobile development.
+              student at the University of Waterloo with a passion for finding
+              innovative software solutions to real-life problems.
             </p>
-            <p>I am currently seeking co-op opportunities for Summer 2021.</p>
+            <p>
+              I am currently seeking enriching co-op opportunities for Fall
+              2021.
+            </p>
             <a href={Resume} target="_blank" rel="noreferrer">
               <motion.button
                 style={{
