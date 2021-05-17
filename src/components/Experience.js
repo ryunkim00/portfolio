@@ -61,7 +61,8 @@ const Experience = () => {
           <h2>Experience</h2>
           <p style={{ paddingRight: "2rem" }}>
             Through University of Waterloo's cooperative education, I have
-            accumulated 16 months of work experience at various software
+            accumulated 16 months of work experience in which I've made
+            meaningful and impactful contributions to various software
             companies, ranging from those in fintech to the music industry.
             Specific roles and contributions are described below.
           </p>
@@ -75,7 +76,75 @@ const Experience = () => {
       </div>
       <CollapsibleCard
         id="4"
-        header={() => <h3>Frontend Software Engineer</h3>}
+        header={() => (
+          <h3>
+            {width > breakpoint.lg
+              ? "Full Stack Web & Mobile Application Developer"
+              : "Full Stack Developer"}
+          </h3>
+        )}
+        style={styles.card}
+      >
+        <hr />
+        <p style={styles.generalInfo}>
+          <img
+            src={AWLogo}
+            alt="Audioworks Technologies Logo"
+            style={styles.companyLogo}
+          />
+          Audioworks Techologies | 📅 Jan 2021 – Current | 🛠️{" "}
+          <span className="tool">React</span>
+          <span className="tool">React Native</span>
+          <span className="tool">Expo</span>
+          <span className="tool">Node.js</span>
+          <span className="tool">Express</span>
+          <span className="tool">Azure Cosmos DB</span>
+          <span className="tool">Postman</span>
+        </p>
+        <hr />
+        <p>
+          Developed a cross-platform music app from the ground up focusing on
+          social features including instant messaging, comment threads, and push
+          notifications in a small, agile start-up team
+        </p>
+        <ul>
+          <li>
+            Developed REST APIs for various resources and implemented Redis
+            caching to improve efficiency by 82.9%
+          </li>
+          <li>
+            Proposed and developed robust Reddit-style comment threads and
+            server-side push notification handling throughout the app to
+            increase user engagement and retention
+          </li>
+          <li>
+            Transformed Figma designs into responsive UI for the mobile app and
+            staging site deployed on an Nginx server
+          </li>
+          <li>
+            Applied agile project management methodology by creating and
+            tracking epics, stories, and tasks on Jira; participated in biweekly
+            scrum calls and a design audit at the end of each two-week sprint;
+            made and reviewed pull requests on GitHub
+          </li>
+          <li>Presented new features to stakeholders</li>
+        </ul>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <img
+            src={SoundsUniteMobile}
+            alt="SoundsUnite mobile"
+            style={{ width: "40%", height: "auto", objectFit: "contain" }}
+          />
+          <img
+            src={SoundsUniteDesktop}
+            alt="SoundsUnite desktop"
+            style={{ width: "50%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+      </CollapsibleCard>
+      <CollapsibleCard
+        id="3"
+        header={() => <h3>Software Engineer</h3>}
         style={styles.card}
       >
         <hr />
@@ -85,17 +154,19 @@ const Experience = () => {
             alt="Mensante (Feeling Better Now) Logo"
             style={styles.companyLogo}
           />
-          Mensante Corporation | 📅 Mar 2021 – Current | 🛠️
+          Mensante Corporation | 📅 Mar – Apr 2021 | 🛠️
           <span className="tool">React</span>
           <span className="tool">React Native</span>
           <span className="tool">Expo</span>
-          <span className="tool">Git</span>
+          <span className="tool">Chart.js</span>
+          <span className="tool">i18next</span>
         </p>
         <hr />
         <p>
-          Developed frontend features for an online platform offering mental
-          health assessment, diagnosis, prescription, and counselling services
-          for employees. View the staging site here:{" "}
+          Developed features for a cross-platform app that strives to make
+          mental health services, including assessments, diagnoses,
+          prescriptions, and counselling, more accessible to the working public.
+          View staging site here:{" "}
           <a
             href="https://fbn3staging.ca/"
             target="_blank"
@@ -124,88 +195,17 @@ const Experience = () => {
           />
           <ul style={{ flex: 1 }}>
             <li>
-              Cutomized a <strong>Chart.js</strong> widget in{" "}
-              <strong>React</strong> for displaying a user's mental health
-              assessment history by parsing and filtering data to display in
-              tooltips and labels; adding resize and pan functionalities; and
-              adding navigation click handler events
+              Implemented deep linking and push notifications to increase the
+              number of mobile app downloads, user engagement, and relevant
+              content delivery
             </li>
             <li>
-              Implemented and integrated push notification services using{" "}
-              <strong>React Native</strong> and <strong>Expo</strong>
+              Integrated JS library and framework to provide users with a
+              graphical widget for showing disorders and scores from past
+              assessments, as well as support for multiple languages to reach a
+              larger audience
             </li>
           </ul>
-        </div>
-      </CollapsibleCard>
-      <CollapsibleCard
-        id="3"
-        header={() => <h3>Full Stack Web Application Developer</h3>}
-        style={styles.card}
-      >
-        <hr />
-        <p style={styles.generalInfo}>
-          <img
-            src={AWLogo}
-            alt="Audioworks Technologies Logo"
-            style={styles.companyLogo}
-          />
-          Audioworks Techologies | 📅 Jan 2021 – Current | 🛠️{" "}
-          <span className="tool">React Native</span>
-          <span className="tool">React</span>
-          <span className="tool">Expo</span>
-          <span className="tool">Postman</span>
-          <span className="tool">Git</span>
-        </p>
-        <hr />
-        <p>
-          Developed a cross-platform music-education, -creation, and
-          -collaboration app called SoundsUnite from scratch in a small, agile
-          startup environment/team
-        </p>
-        <ul>
-          <li>
-            Implemented mobile and web UI's based on Figma designs using{" "}
-            <strong>React Native</strong>
-          </li>
-          <li>
-            Designed, implemented, and integrated REST APIs and managed
-            respective collections for backend resources using{" "}
-            <strong>Node.js</strong>, <strong>Express</strong>, and{" "}
-            <strong>MongoDB</strong>, hosted on Microsoft Azure Cosmos DB;
-            tested and troubleshot various endpoints of the APIs based on server
-            responses using <strong>Postman</strong>
-          </li>
-          <li>
-            Fully implemented the company website{" "}
-            <a
-              href="https://app.audioworks.io/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: theme.syntax }}
-            >
-              app.audioworks.io
-            </a>{" "}
-            using React Native and deployed it to an Nginx server using Docker
-            and Kubernetes
-          </li>
-          <li>
-            Applied agile project management methodology by creating and
-            tracking epics, stories, and tasks on Jira; participated in biweekly
-            scrum calls and a design audit at the end of each two-week sprint
-          </li>
-          <li>Performed live demos of new features to stakeholders</li>
-        </ul>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <img
-            src={SoundsUniteMobile}
-            alt="SoundsUnite mobile"
-            style={{ width: "40%", height: "auto", objectFit: "contain" }}
-          />
-          <img
-            src={SoundsUniteDesktop}
-            alt="SoundsUnite desktop"
-            style={{ width: "50%", height: "auto", objectFit: "contain" }}
-          />
         </div>
       </CollapsibleCard>
       <CollapsibleCard
@@ -220,29 +220,21 @@ const Experience = () => {
             alt="SS&C Technologies Logo"
             style={styles.companyLogo}
           />
-          SS&C Techologies | 📅 May – Aug. 2020 | 🛠️{" "}
+          SS&C Techologies | 📅 May – Aug 2020 | 🛠️{" "}
           <span className="tool">Java</span>
+          <span className="tool">GitLab</span>
           <span className="tool">SonarQube</span>
+          <span className="tool">Cucumber</span>
+          <span className="tool">Gherkin</span>
           <span className="tool">Eclipse</span>
-          <span className="tool">Git</span>
         </p>
         <hr />
         <ul>
           <li>
-            Integrated <strong>SonarQube</strong> analysis into a build pipeline
-            to detect any bugs, vulnerabilities and code smells, ensuring that
-            code entering the hands of clients were free of any defects
-          </li>
-          <li>
-            Resolved code smells and security vulnerabilities using best, up to
-            date coding practices, applying optimal design principles and
-            patterns
-          </li>
-          <li>
-            Developed automated test scripts that crawled through various web
-            pages on a brokerage management software, inputting and validating
-            data entry and search query results using a BDD framework called
-            Cucumber in <strong>Java</strong>
+            Addressed the need for continuous inspection of code quality by
+            researching and integrating a code analysis platform into the build
+            of a brokerage management software resulting in a 70.4% reduction of
+            defects and vulnerabilities
           </li>
         </ul>
       </CollapsibleCard>
@@ -254,24 +246,18 @@ const Experience = () => {
         <hr />
         <p style={styles.generalInfo}>
           <img src={MSLogo} alt="Maplesoft Logo" style={styles.companyLogo} />
-          Maplesoft | 📅 Sep. – Dec. 2019 | 🛠️{" "}
+          Maplesoft | 📅 Sep – Dec 2019 | 🛠️{" "}
           <span className="tool">Typescript</span>
           <span className="tool">Jest</span>
           <span className="tool">Puppeteer</span>
+          <span className="tool">Perforce VCS</span>
         </p>
         <hr />
         <ul>
           <li>
-            Developed comprehensive unit and visual integration tests using{" "}
-            <strong>Puppeteer</strong> and a JS testing framework called{" "}
-            <strong>Jest</strong> to debug custom web components built in
-            Stencil used in the company's modelling and simulation software
-            MapleSim
-          </li>
-          <li>
-            Prevented bugs from entering production by running a test suite
-            using custom npm run scripts, undergoing review cycles for the test
-            files and submitting them on a VCS called Perforce
+            Developed comprehensive unit and visual integration tests to debug
+            custom web components used in the company’s modelling and simulation
+            software
           </li>
         </ul>
       </CollapsibleCard>

@@ -86,7 +86,7 @@ const Contact = () => {
               mobile development.
             </p>
             <p>I am currently seeking co-op opportunities for Summer 2021.</p>
-            <a href={Resume} target="_blank">
+            <a href={Resume} target="_blank" rel="noreferrer">
               <motion.button
                 style={{
                   border: "0.1rem #fcbc66 solid",
