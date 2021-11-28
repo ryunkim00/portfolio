@@ -1,5 +1,5 @@
-import { AnimatePresence } from "framer-motion";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import Main from "./components/Main";
 import Portfolio from "./components/Portfolio";
 import MaskedCaptions from "./components/MaskedCaptions";
@@ -16,7 +16,7 @@ function App() {
   return (
     <ThemeContextProvider>
       <NavContextProvider>
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter initial={false}>
           <Switch location={location} key={location.key}>
             <Route exact path="/portfolio-project" component={Portfolio} />
             <Route exact path="/masked-captions" component={MaskedCaptions} />
