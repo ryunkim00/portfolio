@@ -58,7 +58,7 @@ const Interests = () => {
       title:
         "Visiting a tree farm with my roommates to pick out a Christmas tree",
       size: width > breakpoint.lg ? "22rem" : "20rem",
-      delay: 2.5,
+      delay: 3,
     },
   ];
 

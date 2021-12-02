@@ -1,11 +1,17 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import InterestBubbleModal from "./InterestBubbleModal";
 
 const InterestBubble = ({ size, delay, imgSrc, title }) => {
+  const [verticalLength, setVerticalLength] = useState(0);
+
+  useEffect(() => {
+    setVerticalLength(-20);
+  }, []);
+
   const bubbleVariants = {
     animate: {
-      y: -20,
+      y: verticalLength,
       transition: {
         repeat: Infinity,
         repeatType: "mirror",
@@ -14,7 +20,7 @@ const InterestBubble = ({ size, delay, imgSrc, title }) => {
       },
     },
     hover: {
-      scale: 1.1,
+      scale: 1.05,
     },
   };
   const [modalVisible, setModalVisible] = useState(false);
