@@ -1,5 +1,4 @@
-import Profile from "../assets/Profile.jpeg";
-import ProfileDark from "../assets/Profile-Dark.jpg";
+import Profile from "../assets/Profile.png";
 import {
   GrMail,
   GrLinkedinOption,
@@ -64,7 +63,7 @@ const Contact = () => {
           }}
         >
           <img
-            src={isLightTheme ? Profile : ProfileDark}
+            src={Profile}
             alt="Profile"
             title="Nice to meet you!"
             style={{
@@ -80,14 +79,16 @@ const Contact = () => {
           >
             <h2>About</h2>
             <p>
-              Hello, I'm Ryun! Thanks for visiting my portfolio website. A
-              little bit about me: I'm a third-year mechatronics engineering
-              student at the University of Waterloo with a passion for finding
-              innovative software solutions to real-life problems.
+              Hello, my name is <strong>Ryun Kim</strong>. Thank you for
+              visiting my website. I am a dedicated third-year engineering
+              student at the University of Waterloo and an aspiring software
+              engineer with a demonstrated history of working in the industry on
+              various software products, and a passion for finding creative,
+              robust solutions to real-life problems.
             </p>
             <p>
-              I am currently seeking enriching co-op opportunities for Fall
-              2021.
+              I am currently seeking enriching and impactful co-op/internship
+              opportunities for <strong>Summer 2022</strong>.
             </p>
             <a href={Resume} target="_blank" rel="noreferrer">
               <motion.button
@@ -112,8 +113,8 @@ const Contact = () => {
         >
           <h2>Contact</h2>
           <p style={{ marginBottom: "2rem" }}>
-            A website can't tell the whole story. If you'd like to chat with me,
-            please don't hesitate to reach out to me through any of the methods
+            If you see a good fit for a role in your company, please don't
+            hesitate to reach out and chat with me through any of the methods
             below:
           </p>
           <a

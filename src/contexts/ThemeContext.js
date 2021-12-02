@@ -9,7 +9,7 @@ const ThemeContextProvider = ({ children }) => {
       bg: "#fff",
       syntax: "#333",
       primary: "#fcbc66",
-      secondary: "#fbeec1",
+      secondary: "#f8e7d0",
       tertiary: "#f97b4f",
     },
     dark: {

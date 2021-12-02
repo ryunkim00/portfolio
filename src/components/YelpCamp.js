@@ -42,7 +42,12 @@ const YelpCamp = () => {
   }, []);
 
   return (
-    <motion.div exit={{ x: "-100vw" }} transition={{ ease: "easeInOut" }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}
+    >
       <div
         className="project-container"
         style={{ backgroundColor: theme.bg, color: theme.syntax }}

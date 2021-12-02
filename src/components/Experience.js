@@ -104,7 +104,7 @@ const Experience = () => {
         <hr />
         <p>
           Carrot Inc. at its core provides a smoking cessation solution through
-          its SaaS product{" "}
+          its main product{" "}
           <a
             href={"https://pivot.co/"}
             target="_blank"
@@ -113,22 +113,27 @@ const Experience = () => {
             title="Click to learn more about this product"
           >
             Pivot
-          </a>
-          , a handy carbon monoxide sensor, and a dedicated community of users
-          and coaches.
+          </a>{" "}
+          which combines software, breath sensors, human coaching, and
+          behavioral science to help people quit smoking through a revolutionary
+          quit program. Pivot not only benefits individuals whose lives are
+          often transformed from quitting but businesses which lose around
+          $8,000 per person who smokes annually to excess healthcare costs and
+          lost productivity.
         </p>
         <p>
           I had the pleasure of working in the company's full stack engineering
           team developing in-demand features for internal tools, such as Coach
-          Portal used by coaches to manage their clients, managing their
-          AWS-hosted infrastructure via Terraform, and leaving a
-          revenue-generating legacy of a streamlined re-enrollment flow with
-          automatic sensor renewal. On top of the technical work, I bonded with
-          and was mentored by seasoned software engineers on the team, learning
-          everything from best coding practices to life advice. I'm grateful for
-          the opportunity to work on tech that empowers people to be the best
-          version of themselves as shown by a continuous stream of testimonies
-          from ex-smokers whose lives have been changed for the better.
+          Portal used by coaches to manage their clients, managing Carrot's
+          AWS-hosted infrastructure via Terraform, and leaving behind a
+          revenue-generating legacy by fully implementing a streamlined
+          re-enrollment flow with automatic sensor renewal. On top of the
+          technical work, I was mentored by seasoned software engineers on the
+          team, learning everything from best coding practices to life advice. I
+          am grateful for the opportunity to work on tech that empowers people
+          to be the best version of themselves as shown by a continuous stream
+          of testimonies from ex-smokers whose lives have been changed for the
+          better.
         </p>
         <div style={{ display: width > breakpoint.lg ? "flex" : "block" }}>
           <img
@@ -143,11 +148,11 @@ const Experience = () => {
           <ul>
             <li>
               Designed and implemented a streamlined re-enrollment flow with
-              automatic sensor renewal for improved UX and retention by
-              developing a sensor renewal calculator, relevant services, DAOs,
-              entities, and endpoints in TypeScript and Express, migrating
-              Postgres schemas, and ensuring functionality across web, email,
-              and in-app channels
+              automatic sensor renewal for improved UX and retention; developed
+              a sensor renewal calculator, relevant services, DAOs, entities,
+              and endpoints in TypeScript and Express; performed Postgres schema
+              migrations; and ensured functionality across web, email, and
+              in-app channels
             </li>
             <li>
               Automated running scripts for updating tracking sheets by defining
@@ -162,16 +167,14 @@ const Experience = () => {
               concerns and greatly increase throughput
             </li>
             <li>
-              Shipped out features in React for coaches to view any community
-              activities by a user and received positive feedback
+              Shipped out features including those for displaying any community
+              activity by a user for an internal web tool built with React used
+              by coaches to manage their clients; received positive feedback
+              from coaches
             </li>
             <li>
               Led Node.js backend i18n research, created documentation, and
               helped devise a road plan for upcoming expansion
-            </li>
-            <li>
-              Received HIPAA training and learned the importance of maintaining
-              confidentiality in the health sector
             </li>
           </ul>
         </div>
@@ -211,8 +214,7 @@ const Experience = () => {
         <p>
           I worked in a small, agile team to develop this cross-platform music
           app from the ground up focusing on social features including instant
-          messaging, comment threads, and push notifications. Below are some of
-          my accomplishments:
+          messaging, comment threads, and push notifications.
         </p>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <img
@@ -278,8 +280,7 @@ const Experience = () => {
         <p>
           I took on this part-time role because mental health is an area I care
           about and advocate for. I worked remotely with an international team
-          of developers working on major frontend and backend features. See
-          details below:
+          of developers working on major frontend and backend features.
         </p>
         <div
           style={{
@@ -368,8 +369,8 @@ const Experience = () => {
             software
           </li>
           <li>
-            Engaged in detailed code reviews and frequently communicated ACs
-            with the developer
+            Engaged in detailed code reviews and defined AC with the developer;
+            tested for edge cases
           </li>
         </ul>
       </CollapsibleCard>

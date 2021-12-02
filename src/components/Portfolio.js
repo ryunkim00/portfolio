@@ -42,20 +42,21 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <motion.div exit={{ x: "-100vw" }} transition={{ ease: "easeInOut" }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}
+    >
       <div
         className="project-container"
         style={{ backgroundColor: theme.bg, color: theme.syntax }}
       >
         <h1>Portfolio</h1>
         <p>
-          This is the third iteration of my portfolio website. I like to update
-          or create a new one as I continue to learn more frontend technologies
-          and hone my skills. This website was built using React and an
-          animation library called Framer Motion, which is responsible for
-          animated transitions between pages and the floating bubbles in the
-          interests section. I also used an npm library called
-          `react-image-gallery` for displaying pictures in the project pages.
+          This is the third iteration of my portfolio website and is home to my
+          past work and projects. I like to improve or create a new one as I
+          continue to learn more frontend technologies and hone my skills.
         </p>
         <h2>How I Built It</h2>
         <hr />
@@ -66,17 +67,25 @@ const Portfolio = () => {
         </div>
         <hr style={{ marginBottom: "1.5rem" }} />
         <p>
-          One of the biggest challenges I initially faced was deciding which
-          frontend technologies/libraries to use. Scalability was a big concern
-          as I wanted to be able to add to each section as I progressed. For
-          this, I wanted to leverage
-          <strong> React</strong>'s reusability to quickly lay out the UI but
-          beyond that, there were countless options for animations, components,
-          and assets. I had initially used React-Bootstrap but later determined
-          that I wanted more flexibility so only enlisted the help of{" "}
-          <strong>Framer Motion</strong> to bring this website to life. I also
-          used a React context and a useContext hook for the light and dark
-          theme feature.
+          This website was built using React and an animation library called
+          Framer Motion which is responsible for the animated transitions
+          between pages and the bobbing bubbles in the interests section. I also
+          used an npm library called `react-image-gallery` for displaying
+          pictures in the project pages.
+        </p>
+        <p>
+          One of the challenges I initially faced was deciding which frontend
+          technologies/libraries to use since there are so many viable options
+          out there. Reusability and a small amount of scalability were both of
+          interest to me as I wanted the ability to easily and efficiently add
+          to each section. I wanted to leverage my experience with
+          <strong> React</strong>, its reusability and modularity to quickly lay
+          out the UI. Althought I had initially considered React-Bootstrap like
+          I have used in the past, I decided against it and opted for a more
+          cutomized feel and for more flexibility with CSS and{" "}
+          <strong>Framer Motion</strong>, which I quickly learned how to use for
+          this project. React contexts + hooks were also useful for the modern
+          light/dark theme feature I wanted.
         </p>
         <h2>Image Gallery</h2>
         <ImageGallery items={images} />

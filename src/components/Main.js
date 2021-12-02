@@ -9,7 +9,7 @@ import LogoAndThemeToggle from "./LogoAndThemeToggle";
 
 const Main = () => {
   return (
-    <motion.div exit={{ x: "-100vw" }} transition={{ ease: "easeInOut" }}>
+    <motion.div exit={{ opacity: 0 }} transition={{ duration: 0.4 }}>
       <Home />
       <Experience />
       <Projects />
