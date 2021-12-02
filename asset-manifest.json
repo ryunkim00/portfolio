@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.296c5c51.chunk.css",
-    "main.js": "/portfolio/static/js/main.7e0c651f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7e0c651f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b67e0c3d.chunk.css",
+    "main.js": "/portfolio/static/js/main.7464b308.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7464b308.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c172afdf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c172afdf.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/portfolio/static/css/2.ea11fe1c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.54921b5c.chunk.js.map": "/portfolio/static/js/3.54921b5c.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/portfolio/static/css/2.ea11fe1c.chunk.css.map",
-    "static/css/main.296c5c51.chunk.css.map": "/portfolio/static/css/main.296c5c51.chunk.css.map",
+    "static/css/main.b67e0c3d.chunk.css.map": "/portfolio/static/css/main.b67e0c3d.chunk.css.map",
     "static/js/2.9c0e44f5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9c0e44f5.chunk.js.LICENSE.txt",
     "static/media/Anti-Bumper-Car.3d0eec3d.jpg": "/portfolio/static/media/Anti-Bumper-Car.3d0eec3d.jpg",
     "static/media/Anti-Bumper-Car1.10eed400.png": "/portfolio/static/media/Anti-Bumper-Car1.10eed400.png",
@@ -20,9 +20,12 @@
     "static/media/Anti-Bumper-Car3.b3c008b6.jpg": "/portfolio/static/media/Anti-Bumper-Car3.b3c008b6.jpg",
     "static/media/Anti-Bumper-Car4.947edabe.jpg": "/portfolio/static/media/Anti-Bumper-Car4.947edabe.jpg",
     "static/media/Background.3583287c.mp4": "/portfolio/static/media/Background.3583287c.mp4",
+    "static/media/Carrot-Community.4d4f7000.png": "/portfolio/static/media/Carrot-Community.4d4f7000.png",
+    "static/media/Carrot-Logo.5bc0dc95.png": "/portfolio/static/media/Carrot-Logo.5bc0dc95.png",
     "static/media/Experience-Illustration.835b67bd.svg": "/portfolio/static/media/Experience-Illustration.835b67bd.svg",
     "static/media/FBN-Landing-Page.7508aa1d.png": "/portfolio/static/media/FBN-Landing-Page.7508aa1d.png",
     "static/media/HTN.5d65b69d.jpg": "/portfolio/static/media/HTN.5d65b69d.jpg",
+    "static/media/HTS-Logo.40fab855.png": "/portfolio/static/media/HTS-Logo.40fab855.png",
     "static/media/MS-Logo.e4100285.png": "/portfolio/static/media/MS-Logo.e4100285.png",
     "static/media/Masked-Captions1.d82a6574.gif": "/portfolio/static/media/Masked-Captions1.d82a6574.gif",
     "static/media/Masked-Captions2.693d774c.jpg": "/portfolio/static/media/Masked-Captions2.693d774c.jpg",
@@ -36,10 +39,9 @@
     "static/media/Portfolio3.a264af6c.png": "/portfolio/static/media/Portfolio3.a264af6c.png",
     "static/media/Portfolio4.d6e5a819.png": "/portfolio/static/media/Portfolio4.d6e5a819.png",
     "static/media/Portfolio5.3d18bf97.png": "/portfolio/static/media/Portfolio5.3d18bf97.png",
-    "static/media/Profile-Dark.27354a70.jpg": "/portfolio/static/media/Profile-Dark.27354a70.jpg",
-    "static/media/Profile.c5d1de3a.jpeg": "/portfolio/static/media/Profile.c5d1de3a.jpeg",
+    "static/media/Profile.3cd18a9c.png": "/portfolio/static/media/Profile.3cd18a9c.png",
     "static/media/Projects-Illustration.9176a775.svg": "/portfolio/static/media/Projects-Illustration.9176a775.svg",
-    "static/media/Ryun_Kim_Resume.b2343d98.pdf": "/portfolio/static/media/Ryun_Kim_Resume.b2343d98.pdf",
+    "static/media/Ryun_Kim_Resume.726845cf.pdf": "/portfolio/static/media/Ryun_Kim_Resume.726845cf.pdf",
     "static/media/SS&C-Logo.ac30f710.png": "/portfolio/static/media/SS&C-Logo.ac30f710.png",
     "static/media/SU-Desktop.791616ab.png": "/portfolio/static/media/SU-Desktop.791616ab.png",
     "static/media/SU-Mobile.10dd9d04.png": "/portfolio/static/media/SU-Mobile.10dd9d04.png",
@@ -58,7 +60,7 @@
     "static/js/runtime-main.c172afdf.js",
     "static/css/2.ea11fe1c.chunk.css",
     "static/js/2.9c0e44f5.chunk.js",
-    "static/css/main.296c5c51.chunk.css",
-    "static/js/main.7e0c651f.chunk.js"
+    "static/css/main.b67e0c3d.chunk.css",
+    "static/js/main.7464b308.chunk.js"
   ]
 }
