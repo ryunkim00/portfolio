@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b67e0c3d.chunk.css",
-    "main.js": "/portfolio/static/js/main.7464b308.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7464b308.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.173639a8.chunk.css",
+    "main.js": "/portfolio/static/js/main.fc00e321.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fc00e321.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c172afdf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c172afdf.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/portfolio/static/css/2.ea11fe1c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.54921b5c.chunk.js.map": "/portfolio/static/js/3.54921b5c.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/portfolio/static/css/2.ea11fe1c.chunk.css.map",
-    "static/css/main.b67e0c3d.chunk.css.map": "/portfolio/static/css/main.b67e0c3d.chunk.css.map",
+    "static/css/main.173639a8.chunk.css.map": "/portfolio/static/css/main.173639a8.chunk.css.map",
     "static/js/2.9c0e44f5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9c0e44f5.chunk.js.LICENSE.txt",
     "static/media/Anti-Bumper-Car.3d0eec3d.jpg": "/portfolio/static/media/Anti-Bumper-Car.3d0eec3d.jpg",
     "static/media/Anti-Bumper-Car1.10eed400.png": "/portfolio/static/media/Anti-Bumper-Car1.10eed400.png",
@@ -41,7 +41,7 @@
     "static/media/Portfolio5.3d18bf97.png": "/portfolio/static/media/Portfolio5.3d18bf97.png",
     "static/media/Profile.3cd18a9c.png": "/portfolio/static/media/Profile.3cd18a9c.png",
     "static/media/Projects-Illustration.9176a775.svg": "/portfolio/static/media/Projects-Illustration.9176a775.svg",
-    "static/media/Ryun_Kim_Resume.726845cf.pdf": "/portfolio/static/media/Ryun_Kim_Resume.726845cf.pdf",
+    "static/media/Ryun_Kim_Resume.23cab721.pdf": "/portfolio/static/media/Ryun_Kim_Resume.23cab721.pdf",
     "static/media/SS&C-Logo.ac30f710.png": "/portfolio/static/media/SS&C-Logo.ac30f710.png",
     "static/media/SU-Desktop.791616ab.png": "/portfolio/static/media/SU-Desktop.791616ab.png",
     "static/media/SU-Mobile.10dd9d04.png": "/portfolio/static/media/SU-Mobile.10dd9d04.png",
@@ -60,7 +60,7 @@
     "static/js/runtime-main.c172afdf.js",
     "static/css/2.ea11fe1c.chunk.css",
     "static/js/2.9c0e44f5.chunk.js",
-    "static/css/main.b67e0c3d.chunk.css",
-    "static/js/main.7464b308.chunk.js"
+    "static/css/main.173639a8.chunk.css",
+    "static/js/main.fc00e321.chunk.js"
   ]
 }
