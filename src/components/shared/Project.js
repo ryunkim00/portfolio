@@ -8,7 +8,8 @@ const imageVariants = {
   hover: {
     y: -10,
     transition: {
-      yoyo: Infinity,
+      repeat: Infinity,
+      repeatType: "mirror",
       duration: 0.4,
     },
   },

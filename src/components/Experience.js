@@ -65,9 +65,9 @@ const Experience = () => {
           <p style={{ paddingRight: "2rem" }}>
             Through University of Waterloo's cooperative education, I have
             accumulated 22 months of work experience in which I've made
-            meaningful and impactful contributions to various tech companies in
-            the digital health space and beyond. Specific roles and
-            contributions are described below.
+            meaningful and impactful contributions to various software products
+            in the digital health space and beyond. Click on each role to learn
+            more.
           </p>
         </div>
         <ExperienceIllustration
@@ -103,8 +103,7 @@ const Experience = () => {
         </p>
         <hr />
         <p>
-          Carrot Inc. at its core provides a smoking cessation solution through
-          its main product{" "}
+          The company's main product{" "}
           <a
             href={"https://pivot.co/"}
             target="_blank"
@@ -114,26 +113,23 @@ const Experience = () => {
           >
             Pivot
           </a>{" "}
-          which combines software, breath sensors, human coaching, and
-          behavioral science to help people quit smoking through a revolutionary
-          quit program. Pivot not only benefits individuals whose lives are
-          often transformed from quitting but businesses which lose around
-          $8,000 per person who smokes annually to excess healthcare costs and
-          lost productivity.
+          is a revolutionary program for quitting smoking that combines
+          software, breath sensors, human coaching, and behavioral science. It
+          not only benefits individuals whose lives are often transformed from
+          quitting but businesses which lose around $8,000 per person who smokes
+          annually to excess healthcare costs and lost productivity.
         </p>
         <p>
           I had the pleasure of working in the company's full stack engineering
-          team developing in-demand features for internal tools, such as Coach
-          Portal used by coaches to manage their clients, managing Carrot's
-          AWS-hosted infrastructure via Terraform, and leaving behind a
-          revenue-generating legacy by fully implementing a streamlined
-          re-enrollment flow with automatic sensor renewal. On top of the
-          technical work, I was mentored by seasoned software engineers on the
-          team, learning everything from best coding practices to life advice. I
-          am grateful for the opportunity to work on tech that empowers people
-          to be the best version of themselves as shown by a continuous stream
-          of testimonies from ex-smokers whose lives have been changed for the
-          better.
+          team developing requested features for internal tools such as Coach
+          Portal used by coaches to manage their clients; managing Carrot's
+          AWS-hosted infrastructure via Terraform; and leaving behind a
+          revenue-generating legacy by fully implementing and integrating a
+          streamlined UX flow for re-enrollment in the program which
+          automatically ships replacement sensors to eligible users. On top of
+          the technical work, I was mentored by software engineer veterans on
+          the team, learning everything from best coding practices to life
+          advice.
         </p>
         <div style={{ display: width > breakpoint.lg ? "flex" : "block" }}>
           <img
@@ -147,41 +143,43 @@ const Experience = () => {
           />
           <ul>
             <li>
-              Designed and implemented a streamlined re-enrollment flow with
-              automatic sensor renewal for improved UX and retention; developed
-              a sensor renewal calculator, relevant services, DAOs, entities,
-              and endpoints in TypeScript and Express; performed Postgres schema
-              migrations; and ensured functionality across web, email, and
-              in-app channels
+              Designed and implemented streamlined UX flow for re-enrollment in
+              the program which automatically ships replacement sensors;
+              developed scripts services, DAOs, entities, and endpoints in
+              <strong>TypeScript</strong>, <strong>Postgres</strong>, and{" "}
+              <strong>Express</strong>; performed schema migrations; and
+              integrated into web, email, and in-app channels
             </li>
             <li>
               Automated running scripts for updating tracking sheets by defining
-              Amazon ECS task definitions and CloudWatch cron jobs via Terraform
-              and a Google Cloud service account reducing overhead for this
-              process by 93.3%
+              Amazon <strong>ECS</strong> task definitions and{" "}
+              <strong>CloudWatch</strong> cron jobs via{" "}
+              <strong>Terraform</strong>
+              and a <strong>Google Cloud</strong> service account reducing
+              overhead for this process by 93.3%
             </li>
             <li>
-              Remodelled coach backfilling script in internal ETL framework to
-              follow separation of concerns and replaced Amazon Cognito
-              dependencies with real-time DB ones to address scalability
-              concerns and greatly increase throughput
+              Remodelled a script for backfilling coaches in an internal ETL
+              framework to follow separation of concerns; replaced Amazon
+              <strong>Cognito</strong> dependencies with real-time DB ones to
+              address scalability issues and greatly increase throughput
             </li>
             <li>
-              Shipped out features including those for displaying any community
-              activity by a user for an internal web tool built with React used
-              by coaches to manage their clients; received positive feedback
-              from coaches
+              Shipped out features in <strong>React</strong> including those for
+              displaying any community activity by a user for an internal web
+              tool used by coaches to manage their clients; received positive
+              feedback from coaches
             </li>
             <li>
-              Led Node.js backend i18n research, created documentation, and
-              helped devise a road plan for upcoming expansion
+              Led Node.js backend i18n research and helped devise a road plan
+              for expansion
             </li>
           </ul>
         </div>
       </CollapsibleCard>
       <CollapsibleCard
         id="5"
-        header={() => <h3>Web & Mobile Developer</h3>}
+        header={() => <h3>Full Stack Web & Mobile Developer</h3>}
         style={styles.card}
       >
         <hr />
@@ -192,9 +190,8 @@ const Experience = () => {
             style={styles.companyLogo}
           />
           Audioworks Techologies | 📅 Jan – Jun 2021 | 🛠️{" "}
-          <span className="tool">React Native</span>
+          <span className="tool">React (Native)</span>
           <span className="tool">Expo</span>
-          <span className="tool">React</span>
           <span className="tool">Node.js + Express</span>
           <span className="tool">Azure Cosmos DB</span>
           <span className="tool">Postman</span>
@@ -203,18 +200,17 @@ const Experience = () => {
         </p>
         <hr />
         <p>
-          Audioworks Technologies strives to create software to inspire and
-          empower a young generation of artists. Their main product in
-          development SoundsUnite is a one-stop solution for all aspiring
-          musicians. It includes a built-in digital audio workstation, courses
-          on various topics authored by professionals in the field, and social
-          features for connecting with fellow musicians and growing their
-          following/network.
+          Audioworks Technologies creates software to inspire and empower a
+          young generation of artists. The company's main product in development
+          SoundsUnite is a one-stop solution for all aspiring musicians. It
+          includes a built-in digital audio workstation, courses on various
+          topics authored by professionals in the field, and social features for
+          connecting with fellow musicians and growing your following/network.
         </p>
         <p>
-          I worked in a small, agile team to develop this cross-platform music
-          app from the ground up focusing on social features including instant
-          messaging, comment threads, and push notifications.
+          I worked in an agile team to develop SoundsUnite from the ground up
+          focusing on social features including instant messaging, comment
+          threads, and push notifications.
         </p>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <img
@@ -230,7 +226,7 @@ const Experience = () => {
         </div>
         <ul>
           <li>
-            Proposed and implemented robust Reddit-style comment threads and
+            Designed and implemented robust Reddit-style comment threads and
             server-side push notification handling throughout the app to
             increase user engagement and retention
           </li>
@@ -244,9 +240,9 @@ const Experience = () => {
           </li>
           <li>
             Applied agile project management methodology by creating and
-            tracking epics, stories, and tasks on Jira; participated in biweekly
-            scrum calls and a design audit at the end of each two-week sprint;
-            opened and reviewed pull requests on GitHub
+            tracking epics, stories, and tasks on <strong>Jira</strong>;
+            participated in biweekly scrum calls and a design audit at the end
+            of each two-week sprint; opened and reviewed pull requests on GitHub
           </li>
           <li>Performed live demos of new features to stakeholders</li>
         </ul>
@@ -269,12 +265,15 @@ const Experience = () => {
           <span className="tool">Expo</span>
           <span className="tool">Chart.js</span>
           <span className="tool">i18next</span>
+          <span className="tool">Firebase</span>
+          <span className="tool">Git</span>
+          <span className="tool">Jira</span>
         </p>
         <hr />
         <p>
           Mensante Corportation strives to make mental health services,
           including assessments, diagnoses, prescriptions and counselling more
-          accessible to the working public through their website
+          accessible to the working public through their cross-platform app
           FeelingBetterNow.
         </p>
         <p>
@@ -307,8 +306,8 @@ const Experience = () => {
             </li>
             <li>
               Integrated Chart.js to provide users with a graphical widget for
-              showing disorders and scores from past assessments, and i18next to
-              add support for multiple languages and reach a broader audience
+              showing scores from past assessments, and i18next to add support
+              for multiple languages and reach a broader audience
             </li>
           </ul>
         </div>
@@ -342,8 +341,9 @@ const Experience = () => {
             defects and vulnerabilities
           </li>
           <li>
-            Developed automated test scripts in Java using the BDD framework
-            Cucumber and Gherkin to ensure pages were bug-free
+            Developed automated test scripts in <strong>Java</strong> using the
+            BDD framework <strong>Cucumber</strong> and <strong>Gherkin</strong>{" "}
+            to ensure pages were bug-free
           </li>
         </ul>
       </CollapsibleCard>
@@ -369,8 +369,7 @@ const Experience = () => {
             software
           </li>
           <li>
-            Engaged in detailed code reviews and defined AC with the developer;
-            tested for edge cases
+            Engaged in detailed code reviews and defined AC with the developer
           </li>
         </ul>
       </CollapsibleCard>
@@ -396,14 +395,14 @@ const Experience = () => {
         <ul>
           <li>
             Produced graphical components used in project-specific UI for HVAC
-            operators from engineered shop drawings of duct systems and AutoCAD
-            floor plans; converted these floor plans into 3-D models using
-            SketchUp
+            operators from engineered shop drawings of duct systems and{" "}
+            <strong>AutoCAD</strong> floor plans; converted these floor plans
+            into 3-D models using <strong>SketchUp</strong>
           </li>
           <li>
             Programmed direct digital control systems for actuating HVAC systems
             based on custom sequences of operation using a plugin-in analog and
-            digital logic stencil on Visio
+            digital logic stencil on <strong>Visio</strong>
           </li>
         </ul>
       </CollapsibleCard>

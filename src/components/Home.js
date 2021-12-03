@@ -3,11 +3,14 @@ import Background from "../assets/Background.mp4";
 import { ThemeContext } from "../contexts/ThemeContext";
 import { FiMenu, FiX } from "react-icons/fi";
 import { NavContext } from "../contexts/NavContext";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const Home = () => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);
   const { navVisible, setNavVisible } = useContext(NavContext);
   const theme = isLightTheme ? light : dark;
+  const { windowDimensions, breakpoint } = useWindowDimensions();
+  const { width } = windowDimensions;
 
   useEffect(() => {
     window.scroll(0, 0);
@@ -42,8 +45,8 @@ const Home = () => {
         onClick={() => setNavVisible(!navVisible)}
         style={{
           position: "fixed",
-          right: "1rem",
-          top: "1rem",
+          right: width > breakpoint.lg ? "1rem" : "0.5rem",
+          top: width > breakpoint.lg ? "1rem" : "0.5rem",
           cursor: "pointer",
           zIndex: 2,
         }}

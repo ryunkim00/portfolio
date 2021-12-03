@@ -67,25 +67,22 @@ const Portfolio = () => {
         </div>
         <hr style={{ marginBottom: "1.5rem" }} />
         <p>
-          This website was built using React and an animation library called
-          Framer Motion which is responsible for the animated transitions
-          between pages and the bobbing bubbles in the interests section. I also
-          used an npm library called `react-image-gallery` for displaying
-          pictures in the project pages.
+          This website was built using <strong>React</strong> and an animation
+          library called <strong>Framer Motion</strong> which is responsible for
+          the animated transitions between pages and the bobbing bubbles in the
+          interests section. I also used an npm library called
+          `react-image-gallery` for displaying images in the project pages.
         </p>
         <p>
           One of the challenges I initially faced was deciding which frontend
           technologies/libraries to use since there are so many viable options
           out there. Reusability and a small amount of scalability were both of
           interest to me as I wanted the ability to easily and efficiently add
-          to each section. I wanted to leverage my experience with
-          <strong> React</strong>, its reusability and modularity to quickly lay
-          out the UI. Althought I had initially considered React-Bootstrap like
-          I have used in the past, I decided against it and opted for a more
-          cutomized feel and for more flexibility with CSS and{" "}
-          <strong>Framer Motion</strong>, which I quickly learned how to use for
-          this project. React contexts + hooks were also useful for the modern
-          light/dark theme feature I wanted.
+          to each section. I wanted to leverage my experience with React, its
+          reusability and modularity to quickly lay out the UI. Althought I had
+          briefly considered React-Bootstrap, I opted for a more cutomized feel
+          and flexibility with CSS and Framer Motion. React contexts + hooks
+          were also useful for the modern light/dark theme feature.
         </p>
         <h2>Image Gallery</h2>
         <ImageGallery items={images} />

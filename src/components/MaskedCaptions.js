@@ -72,14 +72,14 @@ const MaskedCaptions = () => {
           </motion.button>
         </a>
         <p style={{ marginTop: "3rem" }}>
-          This was a submission for Hack the North 2020++. Three of my friends
-          and I wanted to create a tool that could help alleviate some of the
+          This project was a submission for Hack the North 2020++. Three of my
+          friends and I wanted to create a tool that could alleviate some of the
           frustrations and limitations the COVID-19 pandemic has placed on
-          society espcially in the area of in-person communication. Our product
-          Masked Captions is a cross-platform, user-friendly mobile application
-          that provides captions on a full screen to allow users to communicate
-          freely from a safe distance. To extend on this idea, we also added a
-          realtime, fairly accurate translation capability.
+          society espcially in in-person communication. Our product Masked
+          Captions is a user-friendly mobile app that provides captions on a
+          full screen to allow users to communicate freely from a safe distance.
+          To extend on this idea, we also added a real-time, fairly accurate
+          translation capability supporting multiple languages.
         </p>
         <h2>How We Built It + My Contributions</h2>
         <hr />
@@ -93,10 +93,10 @@ const MaskedCaptions = () => {
           We initally had difficulty finding the right framework to build our
           app in as we wanted to ease the integration of the{" "}
           <strong>Google Cloud Speech-to-Text and Translate APIs</strong> later
-          down the road. After some digging, we landed on Unity and set up the
-          speech-to-text which performed well. I worked on the translate API
-          integration in <strong>C#</strong> and the UI and navigation logic in
-          Unity's intuitive GUI.
+          down the road. After some digging, we landed on <strong>Unity</strong>{" "}
+          and set up the speech-to-text which performed well. I worked on the
+          translate API integration in <strong>C#</strong> and the UI and
+          navigation logic in Unity's intuitive GUI.
         </p>
         <h2>Image Gallery</h2>
         <ImageGallery items={images} />

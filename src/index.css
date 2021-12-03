@@ -52,10 +52,10 @@ hr {
   transform: translate(-50%, -45%);
 }
 .container {
-  padding: 2rem 10vmax;
+  padding: 2rem 6vmax;
 }
 .project-container {
-  padding: 4rem 10vmax;
+  padding: 4rem 6vmax;
 }
 .card-closed {
   opacity: 0;
@@ -64,7 +64,7 @@ hr {
   transition: opacity 0.4s ease, max-height 0.4s ease, visibility 0.4s ease;
 }
 .card-open {
-  max-height: 100rem;
+  max-height: 1000rem;
   transition: opacity 0.6s ease, max-height 0.6s ease, visibility 0.6s ease;
 }
 .tool {

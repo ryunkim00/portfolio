@@ -94,11 +94,12 @@ const AntiBumperCar = () => {
         <hr style={{ marginBottom: "1.5rem" }} />
         <p>
           Using Swift and ARKit, we built an image-detecting app which was
-          uploaded to an iOS device. The app was used to recognize a principal
-          other vehicle, get its position and velocity, and send data
-          (corresponding to a certain driving mode) to an HTTP endpoint on
-          Autocode. This data was then parsed and sent to an Arduino control
-          board for actuating the motors of the automated vehicle.
+          uploaded to an iOS device with a built-in LiDAR sensor. The app was
+          used to recognize a principal vehicle, get its position and velocity,
+          and send data corresponding to a certain driving mode to an HTTP
+          endpoint on Autocode. This data was then parsed using a Python script
+          and sent to an Arduino control board for actuating the motors of the
+          autonomous vehicle.
         </p>
         <h2>Image Gallery</h2>
         <ImageGallery items={images} />

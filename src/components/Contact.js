@@ -80,15 +80,17 @@ const Contact = () => {
             <h2>About</h2>
             <p>
               Hello, my name is <strong>Ryun Kim</strong>. Thank you for
-              visiting my website. I am a dedicated third-year engineering
-              student at the University of Waterloo and an aspiring software
-              engineer with a demonstrated history of working in the industry on
-              various software products, and a passion for finding creative,
-              robust solutions to real-life problems.
+              visiting my website. I am a dedicated third-year{" "}
+              <strong>engineering student</strong> at the{" "}
+              <strong>University of Waterloo</strong> and an{" "}
+              <strong>aspiring software engineer</strong> with{" "}
+              <strong>22 months of industry experience</strong> under my belt. I
+              have a passion for finding creative, robust solutions to real-life
+              problems and making a meaningful impact on products I believe in.
             </p>
             <p>
-              I am currently seeking enriching and impactful co-op/internship
-              opportunities for <strong>Summer 2022</strong>.
+              I am actively seeking <strong>internship</strong> opportunities
+              for <strong>Summer 2022</strong>.
             </p>
             <a href={Resume} target="_blank" rel="noreferrer">
               <motion.button
@@ -114,8 +116,7 @@ const Contact = () => {
           <h2>Contact</h2>
           <p style={{ marginBottom: "2rem" }}>
             If you see a good fit for a role in your company, please don't
-            hesitate to reach out and chat with me through any of the methods
-            below:
+            hesitate to reach out through any of the methods below:
           </p>
           <a
             href="mailto:ryun.kim@uwaterloo.ca"

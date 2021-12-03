@@ -82,7 +82,7 @@ const YelpCamp = () => {
           I used <strong>Bootstrap</strong> for the frontend and{" "}
           <strong>Node.js</strong> and <strong>MongoDB</strong> for the backend.
           The app can perform CRUD operations for campsites and comments using
-          REST APIs. I used a containerization service called goormIDE for
+          REST APIs. A containerization service called goormIDE was used for
           development and <strong>Heroku</strong> for deployment.
         </p>
         <h2>Image Gallery</h2>
