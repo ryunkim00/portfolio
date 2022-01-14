@@ -349,7 +349,7 @@ const Experience = () => {
       </CollapsibleCard>
       <CollapsibleCard
         id="2"
-        header={() => <h3>Software Engineer in Test</h3>}
+        header={() => <h3>Software Engineer in Test Intern</h3>}
         style={styles.card}
       >
         <hr />
@@ -375,7 +375,7 @@ const Experience = () => {
       </CollapsibleCard>
       <CollapsibleCard
         id="1"
-        header={() => <h3>UI Designer</h3>}
+        header={() => <h3>UX/UI Designer & Jr. Controls Developer</h3>}
         style={styles.card}
       >
         <hr />
